@@ -42,3 +42,4 @@ round((t.transaction_datetime - r.terminal_date)*(24*60*60)) as tt  from tst t
 left join rbs r on instr(r.ern, t.ern)=1 and t.transaction_datetime - r.terminal_date between -0.00002 and 0.00002;
 
 select * from tst;-- полна€ шл€па
+select * from rbs;--шл€па
