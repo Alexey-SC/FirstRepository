@@ -43,3 +43,4 @@ left join rbs r on instr(r.ern, t.ern)=1 and t.transaction_datetime - r.terminal
 
 select * from tst;-- полна€ шл€па
 select * from rbs;--шл€па
+--goob bye
